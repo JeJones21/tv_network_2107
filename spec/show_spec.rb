@@ -34,6 +34,7 @@ RSpec.describe Show do
     knight_rider = Show.new("Knight Rider", "Glen Larson", [michael_knight, kitt])
 
     expect(knight_rider.highest_paid_actor).to eq("David Hasselhoff")
+    expect(knight_rider.actors).to eq(["David Hasselhoff", "William Daniels"])
   end
 
 end
