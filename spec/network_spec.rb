@@ -59,8 +59,8 @@ RSpec.describe Network do
     nbc.add_show(parks_and_rec)
 
     expected = {
-      knight_rider => ["David Hasselhoff", "William Daniels"],
-      parks_and_rec => ["Amy Poehler", "Nick Offerman"]
+      "knight_rider" => ["David Hasselhoff", "William Daniels"],
+      "parks_and_rec" => ["Amy Poehler", "Nick Offerman"]
     }
     expect(nbc.actors_by_show).to eq(expected)
   end
