@@ -26,6 +26,6 @@ RSpec.describe Show do
     knight_rider = Show.new("Knight Rider", "Glen Larson", [michael_knight, kitt])
 
     expect(knight_rider.total_salary).to eq(2600000)
-
   end
+
 end
