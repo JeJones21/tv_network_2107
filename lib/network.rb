@@ -9,6 +9,13 @@ class Network
   end
 
   def add_show(show)
-    @shows << show 
+    @shows << show
   end
+
+  # def main_characters
+  #WHAT ON EARTH DETERMINES THE MAIN CHARACTER
+  #   @shows.characters.first
+  # end
+
+
 end
