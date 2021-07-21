@@ -17,5 +17,10 @@ class Network
   #   @shows.characters.first
   # end
 
+  def actors_by_show
+    @shows.flat_map do |character, actor|
+      character.actors
+    end
 
+  end
 end
